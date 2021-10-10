@@ -7,13 +7,13 @@ import logo from "./images/FullLogo-Footer.png";
 
 const App = () => {
 	return (
-		<Container fluid>
+		<Container fluid className="container">
 			<Segment basic inverted padded="very" vertical>
 				<Header as="h1" textAlign="center">
 					Power Stretch
 					<hr />
 				</Header>
-				<Header  textAlign="center">
+				<Header textAlign="center">
 					One-on-one stretch and release work in New York City.
 				</Header>
 			</Segment>
@@ -40,7 +40,8 @@ const App = () => {
 
 			<div className="footer">
 				<p>
-					<a href = "mailto:info@basharfitness.com">INFO@BASHARFITNESS.COM</a> | 917.545.3170 300-302 WEST 38TH ST, 3RD FLOOR
+					<a href="mailto:info@basharfitness.com">INFO@BASHARFITNESS.COM</a> |
+					917.545.3170 300-302 WEST 38TH ST, 3RD FLOOR
 				</p>
 			</div>
 		</Container>
