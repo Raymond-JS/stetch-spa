@@ -1,0 +1,116 @@
+body, html {
+    
+    background-color:#262729;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+ h1, h2 {
+    color: white !important;   
+}
+
+h1 {
+    padding-top: 50px !important;
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 6rem !important;
+}
+
+hr {
+    width: 35%;
+    margin-top: 0;
+}
+
+h3.ui.center.aligned.header {
+    margin-top: 0;
+}
+
+.value {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 55vh;
+    color: aliceblue;
+    background-image: url(./images/BasharFitness_Power-Stretch.jpeg);
+    background-size: contain;
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;;
+}
+
+a:hover {
+    color: #fbb216;
+}
+
+.value h3 {
+    margin: 10px;
+}
+ 
+div img {
+    background-size: contain;
+}
+
+ 
+.space {
+    margin-top: 20px !important;
+    width: 250px !important;
+    color: black !important;
+    background-color: aliceblue;
+}
+
+.space:hover {
+    background-color: #fbb216 !important;
+}
+ 
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px;    
+}
+
+.time-col {
+    align-self: center;
+  justify-self: center;
+}
+
+.logo-col {
+    align-self: center;
+  justify-self: center;
+  margin-top: 5px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    height: 100px; 
+    margin-top: 25px;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    h1 {
+        font-size: 3rem !important;
+        padding-top: 25px !important;
+    }
+    h3 {
+        font-size: 1.1rem !important;
+    }
+
+    .time-col {
+        font-size: 1.5rem;
+    }
+    .footer p {
+        font-size: .9rem;
+    }
+
+    
+}
