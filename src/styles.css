@@ -29,21 +29,56 @@ h3.ui.center.aligned.header {
 }
 
 .value {
-    padding-left: 40px;
+    margin: 0 !important;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     background-color: aliceblue;
     height: 55vh;
     color: aliceblue;
-    background-image: url(./images/BasharFitness_Power-Stretch.jpeg);
+    background-image: url(./images/BasharFitness_Power-Stretch.jpeg) !important;
     background-size: contain;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.nomargin {
+    margin: 0 !important;
+
+}
+
+.sizingMT {
+    font-size: 4em !important;
+}
 a {
     color: aliceblue;;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:  0 !important;
+    padding-bottom: 25px !important;
+}
+
+.card {
+    transition: all .3s ease-out;
+
+}
+
+.card:hover {
+    transform: translate(0, -5px);
+    transform: scale(1.1)
+}
+
+.background {
+    background-image: url(./images/background.png) !important;
+    
+}
+
 
 a:hover {
     color: #fbb216;
@@ -51,6 +86,7 @@ a:hover {
 
 .value h3 {
     margin: 10px;
+    
 }
  
 div img {
@@ -106,6 +142,10 @@ div img {
         font-size: 3rem !important;
         padding-top: 25px !important;
     }
+
+    .sizingMT {
+    font-size: 2em !important;
+}
     h3 {
         font-size: 1.1rem !important;
     }
