@@ -39,9 +39,9 @@ h3.ui.center.aligned.header {
     height: 55vh;
     color: aliceblue;
     background-image: url(./images/BasharFitness_Power-Stretch.jpeg) !important;
-    background-size: contain;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 .nomargin {
