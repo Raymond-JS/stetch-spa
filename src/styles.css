@@ -50,7 +50,7 @@ h3.ui.center.aligned.header {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    max-height: 50vh;
 }
 
 .nomargin {
@@ -151,6 +151,13 @@ div img {
     h1 {
         font-size: 3rem !important;
         padding-top: 25px !important;
+    }
+    .value {
+        height: 65vh; 
+    }
+
+    .content {
+        max-height: fit-content; 
     }
 
     .sizingMT {
