@@ -28,16 +28,18 @@ const App = () => {
 				</Header>
 			</Segment>
 			<Segment basic inverted padded="very" className="value">
-				<h3>INCREASE RANGE OF MOTION</h3>
-				<h3>REMOVE RESTRICTIONS</h3>
-				<h3>REDUCE RISK OF INJURY</h3>
-				<h3>IMPROVE POSTURE</h3>
-				<h3>DECREASE WORKOUT RECOVERY TIME</h3>
-				<h3>LEARN PROPER SELF-MASSAGE ROUTINES</h3>
+				<div className="content">
+					<h3>INCREASE RANGE OF MOTION</h3>
+					<h3>REMOVE RESTRICTIONS</h3>
+					<h3>REDUCE RISK OF INJURY</h3>
+					<h3>IMPROVE POSTURE</h3>
+					<h3>DECREASE WORKOUT RECOVERY TIME</h3>
+					<h3>LEARN PROPER SELF-MASSAGE ROUTINES</h3>
 
-				<a href="http://basharfitness.com/">
-					<Button size="huge space">Book Session</Button>
-				</a>
+					<a href="http://basharfitness.com/">
+						<Button size="huge space">Book Session</Button>
+					</a>
+					</div>
 			</Segment>
 
 			<Segment basic inverted padded="very" className="nomargin background">
